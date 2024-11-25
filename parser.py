@@ -1,9 +1,10 @@
-out = open("facts.clp", "w+")
+import io
+out = open("facts.clp", "w+", encoding='utf-8')
 
 facts = {}
 
 out.write("\n(deffacts possible-facts")
-for line in open("games-knowledge-base\\facts.md", "r").readlines():
+for line in io.open("games-knowledge-base\\facts.md", "r", encoding='utf-8').readlines():
     if line.startswith('#') or line.strip() == "":
         continue
     fact_index = line.split(":")[0].strip()
@@ -12,7 +13,7 @@ for line in open("games-knowledge-base\\facts.md", "r").readlines():
     out.write(f"\n(possible-fact (name \"{fact_name}\"))")
 out.write("\n)")
 
-for i, line in enumerate(open("games-knowledge-base\\rules.md", "r").readlines()):
+for i, line in enumerate(io.open("games-knowledge-base\\rules.md", "r").readlines()):
     if line.startswith('#') or line.strip() == "":
         continue
     from_facts = line.split("->")[0].strip().split(";")

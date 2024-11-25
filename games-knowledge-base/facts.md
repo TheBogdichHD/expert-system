@@ -1,6 +1,6 @@
 # Facts List
 
-## Games:
+## Игры:
 F101: Battlefield
 F102: Battlefield 2042
 F104: Battlefield 1
@@ -39,76 +39,76 @@ F140: Baldur's Gate 3
 F141: The Sims 4
 F150: Fallout Shelter
 
-## Graphics:
-F201: First Person View
-F202: Third Person View
-F203: Realistic Graphics
-F204: Pixel Graphics
+## Графика:
+F201: Вид от 1-го лица
+F202: Вид от 3-го лица
+F203: Реалистичная графика
+F204: Пиксельная графика
 F205: 3D
 F206: 2D
-F207: Destructibility
-F208: Top-down View
-F209: Side View
-F210: Realistic 2.5D
-F211: Voxel Graphics
+F207: Разрушаемость
+F208: Вид сверху
+F209: Вид сбоку
+F210: Реалистичная 2.5D
+F211: Воксельная графика
 
-## Genre:
-F301: Rhythm Game
-F302: Shooter
-F303: Platformer
-F304: Strategy
-F305: Puzzle
+## Жанры:
+F301: Ритм-игра
+F302: Шутер
+F303: Платформер
+F304: Стратегия
+F305: Головоломка
 F306: RPG
-F307: Sandbox
-F308: Casual
-F309: Horror
-F310: Survival Horror
-F311: Turn-Based
-F312: Real-Time
+F307: Песочница
+F308: Казуальная
+F309: Ужасы
+F310: Хоррор на выживание
+F311: Пошаговая
+F312: В реальном времени
 F313: MOBA
-F314: Roguelike
-F315: Action-RPG
-F316: Simulator
-F317: Detective Game
+F314: Рогалик
+F315: Экшен-RPG
+F316: Симулятор
+F317: Детективная
 
-## Mechanics:
-F401: Class-Based Shooter
-F402: Survival
-F403: Fishing
-F404: Resource Management
-F405: Stealth
-F406: Exploration
-F407: Crafting
-F408: Base Building
-F409: Card Battles
-F410: Micro-Management
+## Механики:
+F401: Классовый шутер
+F402: Выживание
+F403: Рыбалка
+F404: Управление ресурсами
+F405: Стелс
+F406: Исследование
+F407: Крафт
+F408: Постройка базы
+F409: Карточные бои
+F410: Микроменеджмент
 
-## Style:
-F501: Fantasy
-F502: Sci-Fi
-F503: Historical
-F504: Retro
-F505: Dieselpunk
-F506: Steampunk
+## Стили:
+F501: Фэнтези
+F502: Фантастика
+F503: Исторический
+F504: Ретро
+F505: Дизельпанк
+F506: Стимпанк
 
-## Characteristics:
-F601: Online
-F602: Offline
-F603: Co-Op
-F604: Competitive
+## Характеристики:
+F601: Онлайн
+F602: Офлайн
+F603: Кооператив
+F604: Соревновательный
 F605: Triple A
-F606: Indie
-F607: Story-Driven
-F608: New
-F609: Old
-F610: Free
-F611: Paid
-F612: Difficult
-F613: Single-Player
-F614: Multiplayer
-F615: Free Expansions
-F616: Addictive
+F606: Инди
+F607: Сюжетная
+F608: Новая
+F609: Старая
+F610: Бесплатная
+F611: Платная
+F612: Сложная
+F613: Одиночная игра
+F614: Многопользовательская
+F615: Бесплатные дополнения
+F616: Затягивающая
 
-## Special:
-F701: Bad
-F702: Classic
+## Особенные:
+F701: Плохая
+F702: Классика

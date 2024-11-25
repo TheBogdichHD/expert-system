@@ -153,7 +153,11 @@ namespace ClipsFormsExample
             if (clipsOpenFileDialog.ShowDialog() == DialogResult.OK)
             {
                 codeBox.Text = System.IO.File.ReadAllText(clipsOpenFileDialog.FileName);
-                Text = "Экспертная система \"Тиндер\" – " + clipsOpenFileDialog.FileName;
+                Text = "Экспертная система \"Игры\" – " + clipsOpenFileDialog.FileName;
+                clips.Clear();
+                clips.LoadFromString(codeBox.Text);
+
+                clips.Reset();
             }
         }
 

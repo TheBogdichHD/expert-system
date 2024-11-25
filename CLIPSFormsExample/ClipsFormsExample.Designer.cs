@@ -34,6 +34,7 @@
             this.codeBox = new System.Windows.Forms.TextBox();
             this.outputBox = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.voicesBox = new System.Windows.Forms.ComboBox();
             this.fontButton = new System.Windows.Forms.Button();
             this.nextButton = new System.Windows.Forms.Button();
             this.resetButton = new System.Windows.Forms.Button();
@@ -42,7 +43,6 @@
             this.clipsOpenFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.fontDialog1 = new System.Windows.Forms.FontDialog();
             this.clipsSaveFileDialog = new System.Windows.Forms.SaveFileDialog();
-            this.voicesBox = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -115,6 +115,14 @@
             this.panel2.Size = new System.Drawing.Size(988, 54);
             this.panel2.TabIndex = 6;
             // 
+            // voicesBox
+            // 
+            this.voicesBox.FormattingEnabled = true;
+            this.voicesBox.Location = new System.Drawing.Point(390, 18);
+            this.voicesBox.Name = "voicesBox";
+            this.voicesBox.Size = new System.Drawing.Size(246, 21);
+            this.voicesBox.TabIndex = 10;
+            // 
             // fontButton
             // 
             this.fontButton.Location = new System.Drawing.Point(264, 12);
@@ -177,14 +185,6 @@
             this.clipsSaveFileDialog.Filter = "CLIPS files|*.clp|All files|*.*";
             this.clipsSaveFileDialog.Title = "Созранить файл как...";
             // 
-            // voicesBox
-            // 
-            this.voicesBox.FormattingEnabled = true;
-            this.voicesBox.Location = new System.Drawing.Point(390, 18);
-            this.voicesBox.Name = "voicesBox";
-            this.voicesBox.Size = new System.Drawing.Size(246, 21);
-            this.voicesBox.TabIndex = 10;
-            // 
             // ClipsFormsExample
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -195,7 +195,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(660, 300);
             this.Name = "ClipsFormsExample";
-            this.Text = "Экспертная система \"Тиндер\"";
+            this.Text = "Экспертная система \"Игры\"";
             this.panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
